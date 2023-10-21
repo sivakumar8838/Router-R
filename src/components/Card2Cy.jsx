@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Card2Cy() {
+export default function Card2cy() {
   return (
       <div><h1>Cybersecurity Vs Ethical Hacking: Top 10 Differences</h1>
  <div className="elementor-widget-container">

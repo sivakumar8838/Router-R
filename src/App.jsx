@@ -71,7 +71,7 @@ function App() {
           <Route path='/ds/card1Ds' element={<Card1Ds />} />
           <Route path='/ds/card2Ds' element={<Card2Ds />} />
           <Route path='/cyber/card1Cy' element={<Card1Cy />} />
-          <Route path='/cyber/card2Cy' element={<Card2cy />} />
+          <Route path='/cyber/card2cy' element={<Card2cy />} />
           <Route path='/career/CardCar' element={<CardCar />} />
         </Routes>
 
