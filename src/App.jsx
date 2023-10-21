@@ -1,18 +1,18 @@
 import React, { useState } from 'react';
 import { Link, Route, BrowserRouter as Router, Routes } from 'react-router-dom';
-import Alllist from './components/Alllist';
-import Fsd from './components/Fsd';
-import Datascience from './components/Datascience';
-import Cyber from './components/Cyber';
-import Career from './components/Career';
-import Card1 from './components/Card1';
-import Card2 from './components/Card2';
-import Card3 from './components/Card3';
-import Card1Ds from './components/Card1Ds';
-import Card2Ds from './components/Card2Ds';
-import Card1Cy from './components/Card1Cy';
-import Card2cy from './components/Card2cy';
-import CardCar from './components/CardCar';
+import Alllist from './siva/Alllist';
+import Fsd from './siva/Fsd'
+import Datascience from './siva/Datascience';
+import Cyber from './siva/Cyber';
+import Career from './siva/Career';
+import Card1 from './siva/Card1';
+import Card2 from './siva/Card2';
+import Card3 from './siva/Card3';
+import Card1Ds from './siva/Card1Ds';
+import Card2Ds from './siva/Card2Ds';
+import Card1Cy from './siva/Card1Cy';
+import Card2cy from './siva/Card2cy';
+import CardCar from './siva/CardCar';
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
